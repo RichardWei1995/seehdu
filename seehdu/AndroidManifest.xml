@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jw.seehdu"
+    android:versionCode="1"
+    android:versionName="1.1.5" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="18" />
+    <!-- 二维码扫描所需要权限 -->
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- 友盟权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" >
+    </uses-permission>
+
+    <!-- BmobPush SDK权限 -->
+    <permission
+        android:name="cn.bmob.permission.push"
+        android:protectionLevel="normal" >
+    </permission>
+
+    <uses-permission android:name="cn.bmob.permission.push" /> <!-- 添加自定义的权限 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_seehdu"
+        android:label="@string/app_name"
+        android:theme="@style/NoTitleBarTheme" >
+        <activity
+            android:name="com.jw.base.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- ***************************** Bmob自动更新组件 *************************** -->
+        <activity
+            android:name="cn.bmob.v3.update.UpdateDialogActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <!-- **************************************************************************** -->
+        <activity
+            android:name="com.jw.base.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.jw.base.GuideView"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.ResetPsdActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.jw.base.RegisterActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.SecondViewActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.thirdview.ToloveActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.thirdview.ToloveItemActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.OfficalwebActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.MineActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.MessegeCenterActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.MineSoftActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.FeedBackActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.AboutActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.jw.appsetview.FixPsdActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.thirdview.LostActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.thirdview.ToLoveAddActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.thirdview.LostAdd"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.thirdview.LostItemActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.UnionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.UnionItemActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.TicketAddActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.TicketItemActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.HduCSDNActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.UnionSignUpActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.HrAddActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.HrItemActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.HrLectureActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.LectureItemActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.NewsDaylyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.thirdview.WashingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.thirdview.WashTotal"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.thirdview.LoveAddActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.secondview.LiteratureActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.webviewnews"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.jw.base.MainActivity1"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.RegesterAfterActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.ActivityAppset"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.view.HompicActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.fourview.PlaySong"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.fourview.HduPhoneActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.stone.shop.fourview.PlaySongItemActivity"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.stone.shop.fourview.Game01Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.jw.tryitem.ZhaoxinHduHelpActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.qr_codescan.CenterScanActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.qr_codescan.MipcaActivityCapture"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.jw.wxapi.WXEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <!-- BmobPush start -->
+        <service
+            android:name="cn.bmob.push.lib.service.PushService"
+            android:exported="true"
+            android:label="PushService"
+            android:permission="cn.bmob.permission.push"
+            android:process="cn.bmob.push" >
+            <intent-filter>
+                <action android:name="cn.bmob.push.lib.service.PushService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="cn.bmob.push.PushReceiver" >
+            <intent-filter android:priority="2147483647" > <!-- 优先级加最高 -->
+                <!-- 系统启动完成后会调用 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <!-- 解锁完成后会调用 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <!-- 监听网络连通性 -->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.jw.push.MyPushMessageReceiver" >
+            <intent-filter>
+                <action android:name="cn.bmob.push.action.MESSAGE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 友盟 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="556be26f67e58e561b00064d" >
+        </meta-data>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="baidu" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="91" />
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="anzhuo" />
+
+        <!-- 桌面插件 -->
+        <receiver
+            android:name="com.jw.base.AppWidet"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/mywidget" />
+        </receiver>
+
+        <service android:name=".UpdateUIService" >
+        </service>
+
+        <!-- 微信接口 -->
+        <receiver
+            android:name=".AppRegister"
+            android:permission="com.tencent.mm.plugin.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

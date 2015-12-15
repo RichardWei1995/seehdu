@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/base_horization_line" />
+
+    <LinearLayout
+        android:id="@+id/ln_item4_hdumap"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/linearlayout_selsector"
+        android:clickable="true"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="@string/item4_more_map"
+            android:textColor="#818181"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/base_horization_line" />
+
+       <LinearLayout
+        android:id="@+id/ln_item4_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/linearlayout_selsector"
+        android:clickable="true"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="@string/item4_more_phone"
+            android:textColor="#818181"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/base_horization_line" />
+    
+    
+       <LinearLayout
+        android:id="@+id/ln_item4_radio"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/linearlayout_selsector"
+        android:clickable="true"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="@string/item4_more_radio"
+            android:textColor="#818181"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/base_horization_line" />
+    
+    
+       <LinearLayout
+        android:id="@+id/ln_item4_game01"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/linearlayout_selsector"
+        android:clickable="true"
+        android:gravity="center|left"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="@string/item4_more_game01"
+            android:textColor="#818181"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/base_horization_line" />
+    
+    
+    
+</LinearLayout>

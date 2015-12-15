@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#3fb8a8"
+    android:gravity="center"
+    android:padding="3dp" >
+
+    <Button
+        android:id="@+id/hrlecture_back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:background="@drawable/button_selector_back" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hrlecture_back"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/hrlecture_back"
+        android:padding="5dp"
+        android:text="@string/sec_lecture"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/tv_hr_fabu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:text="@string/hr_fabu"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:typeface="monospace" />
+
+</RelativeLayout>

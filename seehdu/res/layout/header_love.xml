@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="#e04f5f"
+    >
+
+    <TextView
+          android:id="@+id/tv_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e04f5f" />
+
+    <TextView
+         android:layout_below="@id/tv_1"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btn_love_back"
+        android:text="表白墙"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_love_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/back_n"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/btn_love_add"
+        android:layout_width="30dip"
+        android:layout_height="20dip"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/img_love_new_letter"
+        android:padding="10dip" />
+
+</RelativeLayout>

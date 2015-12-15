@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用 -->
+    <string name="app_name">看杭电</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Lost_name">失物招领</string>
+    <string name="loading">正在登录请稍后……</string>
+    <string name="loadingmain">正在加载数据</string>
+    <string name="homebroadcast">公告....</string>
+    <string name="lecture">讲座信息</string>
+    <string name="union">社团联合</string>
+    <string name="itemunion">看杭电</string>
+    <string name="choose_quit">确认要退出当前账号？ </string>
+    <string name="quit">退出</string>
+    <string name="yes">确认</string>
+    <string name="cancle">取消</string>
+    <string name="home_see">扫一扫</string>
+    <string name="home_feedback">反馈</string>
+    <string name="home_messege">消息</string>
+    <string name="content">内容</string>
+    <string name="sign_up">报名</string>
+    <string name="time">时间:</string>
+    <string name="place">地点:</string>
+    <string name="share">分享</string>
+    <string name="messege">消息</string>
+    <string name="carmer">照相机</string>
+    <string name="sao">扫一扫</string>
+    <string name="thanks">感谢您的支持与使用</string>
+    <string name="CopyRight">CopyRight|看杭电 2015</string>
+    <string name="bugfeedback">Bug反馈</string>
+    <string name="advice">App的建议与意见</string>
+    <string name="peopleintro">开发人员介绍</string>
+    <string name="seehduintro">看杭电介绍</string>
+    <string name="checkupdata">检查更新</string>
+    <string name="vison">Beta</string>
+    <string name="visonnum">看杭电  当前版本号</string>
+    <string name="messegecenter">消息中心</string>
+    <string name="about">关于</string>
+
+    <!-- 首页 -->
+    <string name="home_news">首页新闻</string>
+    <string name="college_severic">校园服务</string>
+    <string name="life_care">生活关怀</string>
+    <string name="more">更多功能</string>
+    <string name="newstitle">新闻标题</string>
+
+    <!-- 第二页 -->
+    <string name="sec_lecture">招聘讲座 </string>
+
+    <!-- 下拉刷新 -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+
+    <!-- Union -->
+    <string name="union_inc">社团报名、宣传、活动信息中心</string>
+    <string name="union_belong">隶属于</string>
+    <string name="union_signup">报名</string>
+    <string name="union_intro">社团简介</string>
+    <string name="union_qiangpiao">抢票</string>
+    <!-- Hr -->
+    <string name="hr_name">单位名称</string>
+    <string name="hradd_name">单位名称:</string>
+    <string name="hr_obj">招聘对象:</string>
+    <string name="hr_rank">招聘职位:</string>
+    <string name="hr_need">招聘要求:</string>
+    <string name="hr_beizhu">备注：</string>
+    <string name="hr_describe">公司简介：</string>
+    <string name="hr_place">招聘地点：</string>
+    <string name="hr_time">招聘时间：</string>
+    <string name="hr_know">招聘须知</string>
+    <string name="hr_fabu">我要发布</string>
+    <!-- lost -->
+    <string name="lost_add">发布启事</string>
+    <string name="lost_con">联系方式:</string>
+    <string name="lost_fb">发布</string>
+    <!-- lost -->
+    <string name="love_item_title">表白</string>
+    <!-- Lecture -->
+    <string name="le_name">讲座名称</string>
+    <string name="le_name_tv">XX讲座</string>
+    <string name="le_place">地点:</string>
+    <string name="le_place_tv">xx地点</string>
+    <string name="le_time">时间:</string>
+    <string name="le_time_tv">xx时间</string>
+    <string name="le_teacher">主讲人:</string>
+    <string name="le_teacher_tv">XX主讲人</string>
+    <string name="le_content">讲座内容</string>
+    <!-- Ticket -->
+    <string name="tic_title">抢票/领票</string>
+
+    <!-- Appset -->
+    <string name="set_fixpsd">修改密码</string>
+    <string name="set_fixpsd_sure">请输入您旧的密码</string>
+    <string name="set_fixpsd_new">请输入新的密码</string>
+    <string name="set_fixpsd_ok">确定</string>
+    
+    <!-- washing -->
+    <string name="washing_inc">宿舍楼洗衣机工作状态实时查看、预约</string>
+    
+    <!-- 更多功能！ -->
+    <string name="item4_more_map">地图定位</string>
+    <string name="item4_more_phone">校内电话薄(持续更新)</string>
+    <string name="item4_more_radio">英语在线（测试版）</string>
+    <string name="item4_more_game01">谁拿外卖</string>
+     
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    
+    
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:background="#e04f5f" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+         android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:text="表白"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:typeface="normal" />
+
+        <TextView
+            android:id="@+id/tv_addlove_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_loveadd_fly"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="#e04f5f"
+        android:text="发送"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/btn_loveadd_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:text="@string/cancle"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:typeface="serif" />
+
+</RelativeLayout>

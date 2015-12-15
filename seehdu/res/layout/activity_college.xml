@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ln_organization"
+                android:layout_width="match_parent"
+                android:layout_height="130dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/shap_login"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:shadowDx="0.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="90dip"
+                    android:layout_height="90dip"
+                    android:contentDescription="@null"
+                    android:padding="5dip"
+                    android:src="@drawable/img_organization" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:text="社团联合"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="10dip"
+                        android:layout_margin="4dp"
+                        android:text="@string/union_inc" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ln_lecture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_lecture" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="@string/sec_lecture" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_exame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_exam" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="学习考试" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_express"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_express" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="活动抢票" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ln_hdu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginTop="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_hdu" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="杭电相关" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_csdn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_csdn" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="杭电CSDN" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_hduweb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_hdu_official_web" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="数字杭电" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

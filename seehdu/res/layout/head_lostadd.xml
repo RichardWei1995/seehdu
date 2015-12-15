@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#333333"
+    android:padding="3dp" >
+
+    <Button
+        android:id="@+id/btnback"
+        style="?android:attr/buttonStyleSmall"
+         android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_selector_back" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnback"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="35dp"
+        android:padding="5dp"
+        android:text="@string/lost_add"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:typeface="monospace" />
+
+</RelativeLayout>

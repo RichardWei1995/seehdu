@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include layout="@layout/header_hritem" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/hr_know"
+                android:textSize="20sp"
+                />
+              <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/hr_obj"
+                android:textSize="15sp"
+                />
+             <TextView 
+                 android:id="@+id/tv_hr_obj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                 android:layout_marginRight="30dp"
+                 android:layout_marginLeft="30dp"
+                android:text="学生"
+                android:textSize="15sp"
+                />
+            
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/hr_rank"
+                android:textSize="15sp"
+                />
+
+             <TextView
+                 android:id="@+id/tv_hr_rank"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="30dp"
+                 android:layout_marginLeft="30dp"
+                 android:layout_marginTop="5dp"
+                 android:text="android"
+                 android:textSize="15sp" />
+
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/hr_need"
+                android:textSize="15sp"
+                />
+             <TextView 
+                 android:id="@+id/tv_hr_need"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                 android:layout_marginRight="30dp"
+                 android:layout_marginLeft="30dp"
+                android:text="@string/content"
+                android:textSize="15sp"
+                />
+             <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:text="@string/hr_beizhu"
+                android:textSize="15sp"
+                />
+             <TextView 
+                 android:id="@+id/tv_hr_beizhu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                 android:layout_marginRight="30dp"
+                 android:layout_marginLeft="30dp"
+                android:text="@string/content"
+                android:autoLink="email|web"
+                android:textSize="15sp"
+                />
+             <WebView 
+                 android:layout_marginTop="20dp"
+                 android:id="@+id/web_hr_item"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 />
+             
+             
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

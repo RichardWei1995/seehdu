@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="window_bg">#88838B8B</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FF8833</color>
+    <color name="brown">#947400</color>
+    <color name="pink">#f48fb1</color>
+    <color name="zise">#9F79EE</color>
+    <color name="qianlan">#40c4ff</color>
+    <color name="caolv">#aeea00</color>
+    <color name="juhuang">#ff7043</color>
+    
+    <!-- 棕色 -->
+    <color name="gray">#C1C1C1</color>
+    <color name="transparent">#00000000</color>
+    <color name="login">#636363</color>
+    <color name="theme_color">#D95555</color>
+    
+    <!--  -->
+    <color name="linear_press">#aaC1C1C1</color>
+    <color name="linear_unpress">#ffffff</color>
+    
+    <!-- viewpager -->
+    <color name="viewpager">#ffffff</color>
+    
+     <color name="result_view">#b0000000</color>
+      <color name="viewfinder_mask">#60000000</color>
+      <color name="possible_result_points">#c0ffff00</color> 
+      <drawable name="transparent_background">#00000000</drawable>
+
+</resources>

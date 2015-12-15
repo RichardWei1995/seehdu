@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ln_clothes_washer"
+                android:layout_width="match_parent"
+                android:layout_height="130dip"
+                android:layout_margin="10dip"
+                android:background="@drawable/shap_login"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:shadowDx="0.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="90dip"
+                    android:layout_height="90dip"
+                    android:contentDescription="@null"
+                    android:padding="5dip"
+                    android:src="@drawable/img_clothes_washer" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="202dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dip"
+                        android:text="洗衣助手"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginTop="10dip"
+                        android:text="@string/washing_inc" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ln_lost_and_found"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_lost_and_found" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="失物招领" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_run"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_run" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="阳光长跑" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_resources"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_resources" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="文献资料" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dip"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:id="@+id/ln_love"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginTop="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_profess" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="表白墙" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_item3_dinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="8dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/shap_login"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip"
+                        android:src="@drawable/img_dinning_hall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip"
+                        android:text="食堂餐厅" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ln_hduweb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="8dip"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center|top"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="90dip"
+                        android:layout_height="90dip"
+                        android:layout_marginTop="10dip"
+                        android:contentDescription="@null"
+                        android:padding="5dip" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

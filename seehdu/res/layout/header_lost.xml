@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ffffff"
+    android:padding="3dp" >
+
+
+    <Button
+        android:id="@+id/lo_add"
+        android:layout_width="30dip"
+        android:layout_marginRight="10dip"
+        android:layout_height="30dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/img_lost_send"
+         />
+
+    <Button
+        android:id="@+id/lo_back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="20dip"
+        android:layout_height="20dip"
+        android:layout_alignBaseline="@+id/lo_add"
+        android:layout_alignBottom="@+id/lo_add"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/back_grey" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lo_back"
+        android:layout_alignBottom="@+id/lo_back"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/lo_back"
+        android:padding="5dp"
+        android:text="失物招领"
+        android:textColor="#818181"
+        android:textSize="15sp" />
+
+</RelativeLayout>

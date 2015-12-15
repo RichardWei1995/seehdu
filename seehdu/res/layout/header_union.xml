@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#333333"
+    android:padding="3dp" >
+
+    <Button
+        android:id="@+id/union_back"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector_back" />
+
+    <Spinner
+        android:id="@+id/sp_union_header"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/union_back"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="38dp"
+        android:padding="5dp"
+        android:text="@string/union"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:typeface="monospace" />
+
+    <ImageView
+        android:id="@+id/img_union_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:contentDescription="@null"
+        android:src="@drawable/button_selector_more" />
+
+</RelativeLayout>
